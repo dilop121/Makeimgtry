@@ -3,13 +3,15 @@ from pyrogram import Client, enums, filters, idle
 import re
 from requests import get
 import asyncio
-from dilrobot import pbot as adisa
+from AdisaX import pbot as adisa
 
 from pyrogram.types import InlineKeyboardButton as ikb, InlineKeyboardMarkup as ikm, Message
 from pyrogram.enums import ChatAction, ParseMode
 import pyshorteners
 shortener = pyshorteners.Shortener()
 from pyrogram.handlers import MessageHandler
+
+
 @adisa.on_message(filters.command(["short"]))
 async def short_urls(bot, message):
     await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
