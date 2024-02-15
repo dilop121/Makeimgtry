@@ -4,8 +4,8 @@ from typing import List
 import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext
-from MukeshRobot import TIME_API_KEY, dispatcher
-from MukeshRobot.modules.disable import DisableAbleCommandHandler
+from AdisaX import TIME_API_KEY, dispatcher
+from AdisaX.modules.disable import DisableAbleCommandHandler
 
 
 def generate_time(to_find: str, findtype: List[str]) -> str:
