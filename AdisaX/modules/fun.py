@@ -7,10 +7,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext
 
 import MukeshRobot.modules.fun_strings as fun_strings
-from MukeshRobot import dispatcher,OWNER_ID
-from MukeshRobot.modules.disable import DisableAbleCommandHandler
-from MukeshRobot.modules.helper_funcs.chat_status import is_user_admin
-from MukeshRobot.modules.helper_funcs.extraction import extract_user
+from AdisaX import dispatcher,OWNER_ID
+from AdisaX.modules.disable import DisableAbleCommandHandler
+from AdisaX.modules.helper_funcs.chat_status import is_user_admin
+from AdisaX.modules.helper_funcs.extraction import extract_user
 
 
 
