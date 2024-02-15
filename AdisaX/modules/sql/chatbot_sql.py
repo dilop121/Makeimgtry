@@ -17,7 +17,7 @@ DILXCHATS.__table__.create(checkfirst=True)
 INSERTION_LOCK = threading.RLock()
 
 
-def is_dilx(chat_id):
+def is_adisa(chat_id):
     try:
         chat = SESSION.query(DILXCHATS).get(str(chat_id))
         return bool(chat)
@@ -25,7 +25,7 @@ def is_dilx(chat_id):
         SESSION.close()
 
 
-def set_dilx(chat_id):
+def set_adisa(chat_id):
     with INSERTION_LOCK:
         dilxchat = SESSION.query(DILXCHATS).get(str(chat_id))
         if not dilxchat:
@@ -34,7 +34,7 @@ def set_dilx(chat_id):
         SESSION.commit()
 
 
-def rem_dilx(chat_id):
+def rem_adisa(chat_id):
     with INSERTION_LOCK:
         dilxchat = SESSION.query(DILXCHATS).get(str(chat_id))
         if dilxchat:
