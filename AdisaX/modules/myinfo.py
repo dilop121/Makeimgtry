@@ -12,7 +12,7 @@ from AdisaX.events import register
 edit_time = 5
 f""" ======================={BOT_NAME}====================== """
 file1 = "https://te.legra.ph/file/6f83d17f269fddb45a217.jpg"
-file2 = "https://telegra.ph/file/9e7815284031452afa9e5.jpg"
+file2 = "https://te.legra.ph/file/4ad3d7080a0f81b34526b.jpg"
 file3 = "https://te.legra.ph/file/1389f95f61fb9598425aa.jpg"
 file4 = "https://te.legra.ph/file/bf9024148918ffd0c125f.jpg"
 file5 = "https://te.legra.ph/file/1d6c83edf0a12409a9ab6.jpg"
