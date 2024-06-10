@@ -11,6 +11,10 @@
  "repository": "https://github.com/stkeditz/AdisaX",
  "stack": "heroku-22",
  "addons": [
+     {
+       "options": {
+          "version": "16"
+       },
        "plan": "heroku-postgresql"
     }
  ],
