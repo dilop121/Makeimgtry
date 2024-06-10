@@ -1067,13 +1067,17 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-💞ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ
+💞{BOT_NAME} ɪs ᴢɪɴᴅᴀ ʙᴀʙᴇs
 ━━━━━━━━━━━━━
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
 **ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ:** `{pyrover}`
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [ᴀᴅɪsᴀ](https://t.me/dil_sagar_121)**
+
+●───────────●───────────⌔⌔⌔
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [ᴅɪʟ](https://t.me/dil_sagar_121)**
+●───────────●───────────⌔⌔⌔
+
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
