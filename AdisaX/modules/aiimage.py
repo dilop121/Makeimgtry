@@ -27,7 +27,7 @@ sᴜᴄᴇssғᴜʟʟʏ Gᴇɴᴇʀᴀᴛᴇᴅ 💘
     await b.send_media_group(message.chat.id, media=photos)
     
 
-__mod_name__ = "Aɪ ɪᴍᴀɢᴇ"
+__mod_name__ = "❤Aɪ ɪᴍᴀɢᴇ❤"
 __help__ = """
  ➻ /imagine : ɢᴇɴᴇʀᴀᴛᴇ Aɪ ɪᴍᴀɢᴇ ғʀᴏᴍ ᴛᴇxᴛ
  ➻ /mahadev : ɢᴇɴᴇʀᴀᴛᴇ Mᴀʜᴀᴅᴇᴠ ɪᴍᴀɢᴇ
